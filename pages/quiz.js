@@ -149,6 +149,7 @@ const screenStates = {
 };
 
 export default function QuizPage() {
+  // eslint-disable-next-line no-console
   console.log('Perguntas Criadas: ', db.questions);
   const [screenState, setScreenState] = React.useState(screenStates.QUIZ);
   const [results, setResults] = React.useState([]);
