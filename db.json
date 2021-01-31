@@ -1,28 +1,44 @@
 {
-    "bg": "https://i2.wp.com/css-tricks.com/wp-content/uploads/2017/06/css-is-awesome-scaled.jpg?resize=1536%2C1208&ssl=1",
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "bg": "https://images.alphacoders.com/825/825902.jpg",
+    "title": "Quiz Has Been Planted",
+    "description": "Teste os seus conhecimentos sobre Counter Strike e mostre que é um Global!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://media.giphy.com/media/muFvIsQWYlb58xJJLF/giphy.gif",
+        "title": "Qual o mapa mais jogado da história do CS:GO?",
         "description": "Essa é pra aquecer",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Dust2",
+          "Nuke",
+          "Mirage",
+          "Inferno"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/f8TXO6yBb8CgU/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://media.giphy.com/media/L2Yx96Mkn17pfLTwSP/giphy.gif",
+        "title": "Qual o unico Jogador invicto em campeonatos Majors?",
+        "description": "Sem ..., sem Major",
+        "answer": 3,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "f0rest",
+           "dev1ce",
+           "Fallen",
+           "FNX"
+
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/L2Yx96Mkn17pfLTwSP/giphy.gif",
+        "title": "Qual o código correto do explosivo C4",
+        "description": "Bomb Has Been Defused",
+        "answer": 1,
+        "alternatives": [
+           "7365608",
+           "7355608",
+           "7365605",
+           "7365608"
+
         ]
       }
     ],
