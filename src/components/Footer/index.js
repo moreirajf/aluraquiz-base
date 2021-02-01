@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 // src/components/Footer/index.js
 const FooterWrapper = styled.footer`
@@ -28,16 +28,22 @@ const FooterWrapper = styled.footer`
 export default function Footer(props) {
   return (
     // eslint-disable-next-line react/jsx-props-no-spreading
+    // eslint-disable-next-line react/react-in-jsx-scope
     <FooterWrapper {...props}>
+      { /* eslint-disable-next-line react/react-in-jsx-scope */}
       <a href="https://www.alura.com.br/">
+        {/* eslint-disable-next-line react/react-in-jsx-scope */}
         <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
       </a>
+      {/* eslint-disable-next-line react/react-in-jsx-scope */}
       <p>
         Criado durante
         {' '}
         a
         {' '}
+        {/* eslint-disable-next-line react/react-in-jsx-scope */}
         <a href="https://www.alura.com.br/">
+          {/* eslint-disable-next-line react/react-in-jsx-scope */}
           <span>Imersão React da Alura</span>
         </a>
       </p>

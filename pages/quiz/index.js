@@ -1,12 +1,15 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import db from '../db.json';
-import Widget from '../src/components/Widgets';
-import QuizLogo from '../src/components/QuizLogo';
-import QuizBackground from '../src/components/QuizBackground';
-import Button from '../src/components/Button';
-import QuizContainer from '../src/components/QuizConainer';
-import AlternativesForm from '../src/components/AlternativesForm';
+import { Lottie } from '@crello/react-lottie';
+import db from '../../db.json';
+import Widget from '../../src/components/Widgets';
+import BackLinkArrow from '../../src/components/BackLinkArrow';
+import QuizLogo from '../../src/components/QuizLogo';
+import QuizBackground from '../../src/components/QuizBackground';
+import Button from '../../src/components/Button';
+import QuizContainer from '../../src/components/QuizConainer';
+import AlternativesForm from '../../src/components/AlternativesForm';
+import loadingAnimation from '../../src/screens/Quiz/animations/loading.json';
 
 function ResultWidget({ results }) {
   return (
@@ -55,7 +58,12 @@ function LoadingWidget() {
       </Widget.Header>
 
       <Widget.Content>
-        [Desafio do loading]
+        <Lottie
+          width="200px"
+          height="200px"
+          className="lottie-container basic"
+          config={{ animationData: loadingAnimation, loop: true, autoplay: true }}
+        />
       </Widget.Content>
     </Widget>
   );
@@ -76,6 +84,7 @@ function QuestionWidget({
   return (
     <Widget>
       <Widget.Header>
+        <BackLinkArrow href="/" />
         <h3>
           {`Pergunta ${questionIndex + 1} de ${totalQuestions}`}
         </h3>
